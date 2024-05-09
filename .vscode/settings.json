@@ -1,0 +1,24 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/bence/ros2_ws/build/ros2_course",
+        "/home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages",
+        "/home/bence/dvrk2_ws/install/dvrk_python/lib/python3.10/site-packages",
+        "/home/bence/dvrk2_ws/install/dvrk_model/lib/python3.10/site-packages",
+        "/home/bence/dvrk2_ws/install/crtk_msgs/local/lib/python3.10/dist-packages",
+        "/home/bence/dvrk2_ws/install/crtk/lib/python3.10/site-packages",
+        "/home/bence/dvrk2_ws/install/cisst_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/bence/ros2_ws/build/ros2_course",
+        "/home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages",
+        "/home/bence/dvrk2_ws/install/dvrk_python/lib/python3.10/site-packages",
+        "/home/bence/dvrk2_ws/install/dvrk_model/lib/python3.10/site-packages",
+        "/home/bence/dvrk2_ws/install/crtk_msgs/local/lib/python3.10/dist-packages",
+        "/home/bence/dvrk2_ws/install/crtk/lib/python3.10/site-packages",
+        "/home/bence/dvrk2_ws/install/cisst_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/bence/dvrk2_ws/install/cisst_ros2_crtk/include/**",
+        "/home/bence/dvrk2_ws/install/crtk_msgs/include/**",
+        "/home/bence/dvrk2_ws/install/cisst_ros2_bridge/include/**",
+        "/home/bence/dvrk2_ws/install/cisst_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
