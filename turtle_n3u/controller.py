@@ -17,10 +17,10 @@ class PTController(Node):
             Pose, "/turtle1/pose", self.cb_pose, 10
         )
 
-        self.Kp_distance = 3  # Proportional gain of distance
+        self.Kp_distance = 20  # Proportional gain of distance
         self.distance_threshold = 0.01
 
-        self.Kp_angle = 3  # Proportional gain of angle
+        self.Kp_angle = 10  # Proportional gain of angle
         self.angle_threshold = 0.001
 
     def cb_pose(self, msg):
@@ -136,7 +136,7 @@ def main(args=None):
     while controller.pose is None:
         rclpy.spin_once(controller)
 
-    if args.flag:
+    if args.triangle:
         controller.move_forward(3)
         controller.rotate(120)
         controller.move_forward(3)
@@ -144,7 +144,7 @@ def main(args=None):
         controller.move_forward(3)
         controller.rotate(120)
     else:
-        controller.snowflake(3, 4)
+        controller.snowflake(3, 3)
 
     rclpy.spin(controller)
 
